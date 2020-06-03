@@ -124,9 +124,9 @@ Annotate the generate backup name.
 With Kanister we can't recover a lost namespace, but we can rebuild an environment with a backup from a destroyed one.
 We will recover two different scenarios:
 
-1 - We will break the database and also wordpress and recover from backup.
+1. We will break the database and also wordpress and recover from backup.
 
-2 - We will delete the wordpress namespace, recreate it and recover from backup.
+2. We will delete the wordpress namespace, recreate it and recover from backup.
 
 ##### Scenario 1
 
