@@ -107,7 +107,7 @@ kanctl create actionset --action backup \
                         --deployment wordpress/wordpress-mysql \
                         --profile default-profile
 ```
-Annotate the backup name
+Annotate the generated backup name.
 
 #### Run the backup actionset for the wordpress container
 ```
@@ -117,7 +117,7 @@ kanctl create actionset --action backup \
                         --deployment wordpress/wordpress \
                         --profile default-profile
 ```
-Annotate the backup name
+Annotate the generate backup name.
 
 #### Destroy WordPress deployment
 
