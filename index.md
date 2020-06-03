@@ -2,7 +2,7 @@
 
 The goal of this post is to provide a step-by-step tutorial on how to set up, backup and restore a WordPress application running on Minikube, using Kanister for Backup and Restore and Minio as S3-like Object Storage.
 
-This is part of a series of introductions to backup and restore tools I'm playing with. If you are interested also in Velero, check [Velero Blog Post](https://tellesnobrega.github.io/kanister-demo/)
+This is part of a series of introductions to backup and restore tools I'm playing with. If you are interested also in Velero, check [Velero Blog Post](https://tellesnobrega.github.io/velero-demo/)
 
 ## Setting up the Environment
 
