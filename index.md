@@ -52,6 +52,7 @@ chmod 700 get_helm.sh
 ### Install Kanister Operator
 ```
 helm repo add kanister https://charts.kanister.io/
+kubectl create ns kanister
 helm install myrelease --namespace kanister kanister/kanister-operator --set image.tag=0.29.0
 ```
 
